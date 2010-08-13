@@ -1,0 +1,90 @@
+---
+abstract: 'Clean Unit Testing with Moose'
+author:
+  - 'Pieter van de Bruggen <pvande@cpan.org>'
+build_requires:
+  B: 0
+  File::Find: 0
+  File::Temp: 0
+  Moose: 0
+  Test::More: 0
+  Text::Outdent: 0.01
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+generated_by: 'Dist::Zilla version 2.100960'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test-Mini-Unit
+provides:
+  Test::Mini::Assertions:
+    file: lib/Test/Mini/Assertions.pm
+    version: 0.050300
+  Test::Mini::Logger:
+    file: lib/Test/Mini/Logger.pm
+    version: 0.050300
+  Test::Mini::Logger::Lapidary:
+    file: lib/Test/Mini/Logger/Lapidary.pm
+    version: 0.050300
+  Test::Mini::Logger::Roles::Statistics:
+    file: lib/Test/Mini/Logger/Roles/Statistics.pm
+    version: 0.050300
+  Test::Mini::Logger::Roles::Timings:
+    file: lib/Test/Mini/Logger/Roles/Timings.pm
+    version: 0.050300
+  Test::Mini::Logger::Roles::Timings::SpecificTest:
+    file: lib/Test/Mini/Logger/Roles/Timings/SpecificTest.pm
+    version: 0.050300
+  Test::Mini::Logger::Roles::Timings::TestCase:
+    file: lib/Test/Mini/Logger/Roles/Timings/TestCase.pm
+    version: 0.050300
+  Test::Mini::Logger::Roles::Timings::TestSuite:
+    file: lib/Test/Mini/Logger/Roles/Timings/TestSuite.pm
+    version: 0.050300
+  Test::Mini::Logger::TAP:
+    file: lib/Test/Mini/Logger/TAP.pm
+    version: 0.050300
+  Test::Mini::Unit:
+    file: lib/Test/Mini/Unit.pm
+    version: 0.050300
+  Test::Mini::Unit::Runner:
+    file: lib/Test/Mini/Unit/Runner.pm
+    version: 0.050300
+  Test::Mini::Unit::Syntax::Keyword::Advice:
+    file: lib/Test/Mini/Unit/Syntax/Keyword/Advice.pm
+    version: 0.050300
+  Test::Mini::Unit::Syntax::Keyword::Test:
+    file: lib/Test/Mini/Unit/Syntax/Keyword/Test.pm
+    version: 0.050300
+  Test::Mini::Unit::Syntax::Keyword::TestCase:
+    file: lib/Test/Mini/Unit/Syntax/Keyword/TestCase.pm
+    version: 0.050300
+  Test::Mini::Unit::TestCase:
+    file: lib/Test/Mini/Unit/TestCase.pm
+    version: 0.050300
+recommends: {}
+requires:
+  B::Hooks::OP::Check: 0.18
+  Data::Dumper: 0
+  Data::Inspect: 0.03
+  Devel::Declare: 0.005011
+  Exception::Class: 1.29
+  IO::Scalar: 2.110
+  List::MoreUtils: 0
+  List::Util: 1.21
+  Moose: 0.98
+  MooseX::Attribute::ENV: 0
+  MooseX::Declare: 0.31
+  MooseX::Getopt: 0.22
+  MooseX::Method::Signatures: 0.30
+  Scalar::Util: 1.21
+  Sub::Install: 0
+  Text::Outdent: 0.01
+  Try::Tiny: 0.06
+  aliased: 0
+  perl: 5.008
+resources:
+  homepage: http://github.com/pvande/Test-Mini-Unit
+  repository: git://github.com/pvande/Test-Mini-Unit.git
+version: 0.050300
