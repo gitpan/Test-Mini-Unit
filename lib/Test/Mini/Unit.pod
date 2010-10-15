@@ -178,7 +178,7 @@ given.  (You can always specify the full name yourself by prepending
       reuse CommonTests;
   }
 
-=head2 Automatic +use+
+=head2 Automatic 'use'
 
 To automatically use packages inside all your test cases (for example,
 your own custom assertions), simply pass the 'with' option to
@@ -209,18 +209,6 @@ See Also:
 
 L<<<< S<<<<< Test::Mini >>>>>|Test::Mini >>>>
 
-
-=back
-
-=head1 METHODS
-
-=head2 Class Methods
-
-=over
-
-=item B<<<< import >>>>
-
-    import($class, @args)
 
 =back
 

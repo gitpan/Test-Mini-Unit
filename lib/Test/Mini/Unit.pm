@@ -169,7 +169,7 @@
 #       reuse CommonTests;
 #   }
 #
-# = Automatic +use+
+# = Automatic 'use'
 #
 # To automatically use packages inside all your test cases (for example, your
 # own custom assertions), simply pass the 'with' option to Test::Mini::Unit;
@@ -200,6 +200,7 @@ use Test::Mini;
 require Test::Mini::Unit::Sugar::Shared;
 require Test::Mini::Unit::Sugar::TestCase;
 
+# @api private
 sub import {
     my ($class, @args) = @_;
     my $caller = caller();

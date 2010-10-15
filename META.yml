@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Test-Mini-Unit
-version:            v1.0.0
+version:            v1.0.1
 abstract:           Declarative Sugar for Test::Mini
 author:
     - Pieter van de Bruggen <pvande@cpan.org>
@@ -9,12 +9,11 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  6.31
     ExtUtils::Manifest:   1.56
-build_requires:
-    ExtUtils::MakeMaker:  0
+build_requires:  {}
 requires:
     Devel::Declare:  v0.6.0
     Sub::Name:       0.05
-    Test::Mini:      v1.1.0
+    Test::Mini:      v1.1.1
 resources:
     bugtracker:  http://github.com/pvande/Test-Mini-Unit/issues
     homepage:    http://github.com/pvande/Test-Mini-Unit
@@ -23,7 +22,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
